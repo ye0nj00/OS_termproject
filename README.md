@@ -1,15 +1,15 @@
 # OS_termproject
 
-## 🧠 CPU 스케줄링 시뮬레이터 (운영체제 텀프로젝트)
+## CPU 스케줄링 시뮬레이터
 
-### 📌 프로젝트 개요
+### 프로젝트 개요
 
 이 프로젝트는 **운영체제(Operating Systems)** 수업의 텀프로젝트로 수행한 **CPU 스케줄링 시뮬레이터**입니다.
 운영체제의 핵심 기능 중 하나인 **프로세스 스케줄링**을 실제로 구현하여, 다양한 알고리즘별로 CPU 자원 분배 방식을 비교하고 **평균 대기시간, 반환시간, CPU 활용률** 등을 측정합니다.
 C 언어로 작성되었으며, 각 알고리즘의 동작 원리를 시각적으로 이해할 수 있도록 **간트 차트(Gantt Chart)** 출력 기능도 포함되어 있습니다.
 
 
-### ⚙️ 구현된 스케줄링 알고리즘
+### 구현된 스케줄링 알고리즘
 
 * FCFS (First-Come, First-Served) – Non-preemptive, simple queue-based scheduling
 * SJF (Shortest Job First) – Both preemptive and non-preemptive versions implemented
@@ -19,7 +19,7 @@ C 언어로 작성되었으며, 각 알고리즘의 동작 원리를 시각적�
 
 ---
 
-### 🧩 주요 기능
+### 주요 기능
 
 * 프로세스 정보 입력 (도착시간, 실행시간, 우선순위 등)
 * 다양한 스케줄링 알고리즘 선택 및 결과 비교
@@ -29,7 +29,7 @@ C 언어로 작성되었으며, 각 알고리즘의 동작 원리를 시각적�
 
 ---
 
-### 🧾 예시 출력
+### 예시 출력
 
 ```
 [Algorithm] Preemptive Priority Scheduling
@@ -47,7 +47,7 @@ CPU Utilization        : 96.5%
 
 ---
 
-### 🧰 개발 환경
+### 개발 환경
 
 * 언어: C
 * 핵심 주제: Process scheduling, preemption, I/O handling, CPU utilization
